@@ -1,11 +1,6 @@
 -- Employee Attendance & Leave Management System
 -- SQLite / Online Compiler Version
 
--- Drop tables if already exist
-DROP TABLE IF EXISTS leave_details;
-DROP TABLE IF EXISTS attendance;
-DROP TABLE IF EXISTS employees;
-
 -- Employees table
 CREATE TABLE employees (
     emp_id INTEGER PRIMARY KEY AUTOINCREMENT,
