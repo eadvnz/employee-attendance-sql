@@ -1,5 +1,4 @@
 -- Employee Attendance & Leave Management System
--- BCA Student SQL Project
 
 DROP DATABASE IF EXISTS employee_attendance_db;
 CREATE DATABASE employee_attendance_db;
@@ -134,3 +133,4 @@ GROUP BY e.emp_id, e.emp_name, e.department;
 
 -- Final output
 SELECT * FROM monthly_attendance_summary;
+
