@@ -12,6 +12,7 @@ This project was created as part of **BCA internship preparation**.
 
 ## Tools and Technologies Used
 - **SQL (MySQL)**
+- **SQLite (Online SQL Compiler)**
 
 ## Database Design
 The database consists of **three main tables** :
@@ -39,12 +40,21 @@ A **SQL VIEW** is used to generate the monthly attendance summary.
 - Classify employee performance as **Excellent**, **Good**, or **Needs Improvement**
 
 ## How to Run the Project
-1. Open **MySQL Command Line** or **MySQL Workbench**
-2. Create and use the database
-3. Run the SQL file **employee_attendance_project.sql**
-4. Execute SELECT queries or use the monthly attendance summary view
 
-The complete database and reports can be recreated by running the SQL file.
+### Option 1: Run on Local Computer (MySQL)
+1. Open **MySQL Command Line** or **MySQL Workbench**
+2. Run the SQL file **employee_attendance_project.sql**
+3. Execute SELECT queries or use the monthly attendance summary view
+
+### Option 2: Run on Online SQL Compiler (SQLite)
+1. Open any **SQLite Online SQL Compiler**
+2. Run the SQL file **employee_attendance_sqlite.sql**
+3. Execute the final SELECT statement to view the summary
+
+## Database Versions
+This project includes two SQL versions to support different execution environments:
+- **MySQL Version** – for local execution on computer  
+- **SQLite Version** – for online SQL compiler execution  
 
 ## Output
 The project generates a **monthly attendance summary** that shows:
@@ -60,4 +70,4 @@ The project generates a **monthly attendance summary** that shows:
 - Database-focused project with **no frontend or web application**
 
 ## Author
-**Edwin Regi**  
+**Edwin Regi**
