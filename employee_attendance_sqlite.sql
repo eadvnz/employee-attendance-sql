@@ -1,5 +1,4 @@
 -- Employee Attendance & Leave Management System
-
 -- SQLite / Online Compiler Version
 
 -- Drop tables if already exist
@@ -49,7 +48,7 @@ INSERT INTO employees (emp_name, department, designation, join_date, salary, ema
 ('Bestho M Eldho','Finance','Accountant','2023-08-05',40000,'bestho@company.com'),
 ('Haizel James','Marketing','Manager','2022-11-12',55000,'haizel@company.com');
 
--- Attendance records
+-- Attendance records (Employee 1)
 INSERT INTO attendance VALUES
 (NULL,1,'2026-02-01','Present',8),(NULL,1,'2026-02-02','Late',6),
 (NULL,1,'2026-02-03','Present',8),(NULL,1,'2026-02-04','Present',8),
@@ -60,6 +59,7 @@ INSERT INTO attendance VALUES
 (NULL,1,'2026-02-13','Present',8),(NULL,1,'2026-02-14','Present',8),
 (NULL,1,'2026-02-15','Present',8);
 
+-- Attendance records (Employee 2)
 INSERT INTO attendance VALUES
 (NULL,2,'2026-02-01','Present',8),(NULL,2,'2026-02-02','Present',8),
 (NULL,2,'2026-02-03','Present',8),(NULL,2,'2026-02-04','Present',8),
@@ -69,6 +69,39 @@ INSERT INTO attendance VALUES
 (NULL,2,'2026-02-11','Present',8),(NULL,2,'2026-02-12','Present',8),
 (NULL,2,'2026-02-13','Present',8),(NULL,2,'2026-02-14','Present',8),
 (NULL,2,'2026-02-15','Present',8);
+
+-- Attendance records (Employee 3)
+INSERT INTO attendance VALUES
+(NULL,3,'2026-02-01','Present',7),(NULL,3,'2026-02-02','Absent',0),
+(NULL,3,'2026-02-03','Late',6),(NULL,3,'2026-02-04','Present',7),
+(NULL,3,'2026-02-05','Absent',0),(NULL,3,'2026-02-06','Present',7),
+(NULL,3,'2026-02-07','Absent',0),(NULL,3,'2026-02-08','Present',7),
+(NULL,3,'2026-02-09','Absent',0),(NULL,3,'2026-02-10','Late',6),
+(NULL,3,'2026-02-11','Present',7),(NULL,3,'2026-02-12','Absent',0),
+(NULL,3,'2026-02-13','Present',7),(NULL,3,'2026-02-14','Absent',0),
+(NULL,3,'2026-02-15','Present',7);
+
+-- Attendance records (Employee 4)
+INSERT INTO attendance VALUES
+(NULL,4,'2026-02-01','Present',7),(NULL,4,'2026-02-02','Half Day',4),
+(NULL,4,'2026-02-03','Absent',0),(NULL,4,'2026-02-04','Present',7),
+(NULL,4,'2026-02-05','Present',7),(NULL,4,'2026-02-06','Absent',0),
+(NULL,4,'2026-02-07','Present',7),(NULL,4,'2026-02-08','Absent',0),
+(NULL,4,'2026-02-09','Present',7),(NULL,4,'2026-02-10','Present',7),
+(NULL,4,'2026-02-11','Absent',0),(NULL,4,'2026-02-12','Present',7),
+(NULL,4,'2026-02-13','Absent',0),(NULL,4,'2026-02-14','Present',7),
+(NULL,4,'2026-02-15','Present',7);
+
+-- Attendance records (Employee 5)
+INSERT INTO attendance VALUES
+(NULL,5,'2026-02-01','Late',6),(NULL,5,'2026-02-02','Present',8),
+(NULL,5,'2026-02-03','Present',8),(NULL,5,'2026-02-04','Absent',0),
+(NULL,5,'2026-02-05','Present',8),(NULL,5,'2026-02-06','Present',8),
+(NULL,5,'2026-02-07','Late',6),(NULL,5,'2026-02-08','Present',8),
+(NULL,5,'2026-02-09','Present',8),(NULL,5,'2026-02-10','Absent',0),
+(NULL,5,'2026-02-11','Present',8),(NULL,5,'2026-02-12','Present',8),
+(NULL,5,'2026-02-13','Present',8),(NULL,5,'2026-02-14','Present',8),
+(NULL,5,'2026-02-15','Present',8);
 
 -- Leave records
 INSERT INTO leave_details VALUES
